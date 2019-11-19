@@ -1,3 +1,3 @@
-# INF
+# itemDB
 
-Dies ist mein Repositiory für den Informatik-Untericht
+Dies ist mein Repositiory für die itemDB-Website.
