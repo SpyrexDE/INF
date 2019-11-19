@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">.
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="css/mc-icons.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body background="img/BGimg.png">
+  <div class="content">
+      <nav class="nav-extended blue-grey darken-4" id="navBar">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Neuer Eintrag</a>
+        </div>
+        <div class="nav-content">
+          <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal green darken-1" onclick="form1.submit();">
+            <i class="material-icons">send</i>
+          </a>
+        </div>
+      </nav>
+
+    <!--Page Content-->
+        <div class="inputFieldsCard">
+          <div class="row" id="mainRow">
+              <form class="col s12 marginForm" action="itemCreateProcess.php" method="POST" id="form1">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input id="item_name" name="item_name" type="text" class="validate">
+                    <label for="item_name">Item-Name</label>
+                  </div>
+                  <div class="input-field col s6">
+
+                    <select class="browser-default" id="item_type" name="item_type">
+                      <option value="0" disabled selected>Typ wählen</option>
+                      <option value="1">Nahkampf</option>
+                      <option value="2">Fernkampf</option>
+                      <option value="3">Sonstiger Kampf</option>
+                      <option value="4">Stehlen</option>
+                      <option value="5">Essen</option>
+                      <option value="6">Rüstung</option>
+                      <option value="7">Effekt</option>
+                      <option value="8">Währung</option>
+                      <option value="9">Nützliches</option>
+                      <option value="10">Sonstiges</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="input-field col s6">
+                    <textarea id="item_lore" name="item_lore" type="text" class="materialize-textarea"></textarea>
+                    <label for="item_lore">Item-Lore</label>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <textarea id="how_to_get" name="how_to_get" type="text" class="materialize-textarea"></textarea>
+                      <label for="how_to_get">Wie soll man es bekommen können?</label>
+                    </div>
+                  </div>
+                </div>
+              <div class="row">
+                  <div class="input-field col s12">
+                    <textarea id="item_desc" name="item_desc" type="text" class="materialize-textarea"></textarea>
+                    <label for="item_desc">Item-Werte/Funktionen/usw.</label>
+                  </div>
+              </div>
+
+              </form>
+            </div>
+          </div>
+    <!--Page Content-->
+  </div>
+</body>
+
+</html>
