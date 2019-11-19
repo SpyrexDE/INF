@@ -83,6 +83,7 @@ span{
     width: 600px;
     position: relative;
     margin: 10% auto;
+    margin-top: 5%;
     padding: 15px 15px 15px 15px;
     border-radius: 10px;
     background: #fff;
@@ -107,12 +108,11 @@ span{
 
 .longText{
   display: block;
-  background-color: #fafafa;
+  background-color: #F5B400;
   border-radius: 4px;
   border-style: solid;
   border-color: #f5b400;
   border-width: 1px;
   font-size: 15px;
   padding: 10px;
-  box-shadow: 0px 0px 2px grey;
 }
