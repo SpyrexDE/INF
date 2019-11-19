@@ -4,8 +4,8 @@
 
   if(strlen($_POST['item_name'])>= 4 && strlen($_POST['item_name'])<= 20 && $_POST['item_type'] != NULL){
           //Mit Server verbinden und Datenbank auswaehlen
-          $database = mysqli_connect("localhost", "root", "");
-          mysqli_select_db($database, "login");
+          $database = mysqli_connect("localhost", "itemDB-Website", "g3!8lkN5");
+          mysqli_select_db($database, "itemDB");
 
           //Lade Werte des form-elemtes in die Variablen
           $itemname = $_POST['item_name'];
