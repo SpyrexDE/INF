@@ -29,8 +29,8 @@
       <?php
 
       //Mit Server verbinden und Datenbank auswaehlen
-      $database = mysqli_connect("localhost", "root", "");
-      mysqli_select_db($database, "login");
+          $database = mysqli_connect("localhost", "itemDB-Website", "g3!8lkN5");
+          mysqli_select_db($database, "itemDB");
 
       $result = $database -> query("select * from items")
                     or die("Fehler beim durchsuchen der Datenbank: ".mysqli_error());
