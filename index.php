@@ -41,11 +41,11 @@
 
 
         while ($row = mysqli_fetch_assoc($result)) {
-          $types = array("Nahkampf", "Fernkampf", "Sonstiger Kampf", "Stehlen", "Essen", "Rüstung", "Effekt", "Währung", "Nützliches", "Sonstiges");
+          $types = array("", "Nahkampf", "Fernkampf", "Sonstiger Kampf", "Stehlen", "Essen", "Rüstung", "Effekt", "Währung", "Nützliches", "Sonstiges");
           $itType = $types[$row["item_type"]];
 
 
-          echo   "<li class='collection-item'><div>".$icons[$row["item_type"]]."".$row["item_name"].""."<a class='secondary-content' href='#modal-".$row["id"]."'><i class='material-icons'>info</i></a></div></li>";
+          echo   "<li class='collection-item'><div>".$icons[$row["item_type"]]."<span = 'itemLabel'>".$row["item_name"]."</span>"."<a class='secondary-content' href='#modal-".$row["id"]."'><i class='material-icons'>info</i></a></div></li>";
           echo    "
           <!--ItemInfo-Popup---->
 
