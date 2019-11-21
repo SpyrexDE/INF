@@ -53,10 +53,11 @@
   margin-right: 15px !important;
 }
 
-span{
+.itemLabel{
   font-size: 20px;
   font-weight: bold;
   vertical-align: middle;
+  margin-left: 6px;
 }
 
 
