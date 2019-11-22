@@ -87,8 +87,8 @@
 }
 
 .modalHeader {
-  margin-left: 20%;
   display: inline;
+  font-size: 4vw;
 }
 .modalContent{
   margin: 5%;
