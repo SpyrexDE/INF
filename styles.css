@@ -52,7 +52,7 @@
 .itemLabel{
   font-size: 20px;
   font-weight: bold;
-  vertical-align: middle;
+  vertical-align: super;
   margin-left: 6px;
 }
 
