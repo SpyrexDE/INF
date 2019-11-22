@@ -53,7 +53,7 @@
           <div id='modal-".$row["id"]."' class='modalDialog'>
               <div>
 
-                  <h2 class='modalHeader'>Beschreibung</h2> <a href='#close' title='Schließen' class='btn-floating btn-large waves-effect waves-light red right'><i class='material-icons' >close</i></a>
+                  <center><h2 class='modalHeader'>Beschreibung</h2> <a href='#close' title='Schließen' class='btn-floating btn-large waves-effect waves-light red right'><i class='material-icons' >close</i></a></center>
                   <div class='modalcontent'>
                     <p class='modalText'><b>Name: </b> ".$row["item_name"]."</p>
                     <p class='modalText'><b>Typ: </b> ".$itType."</p>
