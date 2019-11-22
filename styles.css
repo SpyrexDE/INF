@@ -80,7 +80,7 @@
     width: 40%;
     position: relative;
     margin: 10% auto;
-    margin-top: 5%;
+    margin-top: 2%;
     padding: 15px 15px 15px 15px;
     border-radius: 10px;
     background: #fff;
@@ -88,7 +88,7 @@
 
 .modalHeader {
   display: inline;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 .modalContent{
   margin: 5%;
@@ -99,7 +99,6 @@
 
 .modalText{
   margin: 0px;
-  margin-top: 15px;
   font-size: 20px;
 }
 
