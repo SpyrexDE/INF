@@ -69,7 +69,9 @@
           ";
         }
       ?>
-
+      
+    <a href="http://http://mc.mofagames.eu/description.html" > Hier geht es zur Projekt-Erklärung </a>
+      
     </ul>
 
 
