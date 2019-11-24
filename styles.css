@@ -3,7 +3,7 @@
 }
 
 .mc-icon-32{
-  image-rendering: pixelated;
+  image-rendering: pixelated !important;
 }
 
 #noMargin{
