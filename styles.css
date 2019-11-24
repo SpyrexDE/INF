@@ -1,6 +1,9 @@
 .collection{
  background-color: white !important;
 }
+a{
+ margin-left: 5px;
+}
 
 #noMargin{
  margin: 0px !important;
